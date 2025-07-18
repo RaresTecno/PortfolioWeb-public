@@ -1,0 +1,54 @@
+.section {
+    padding: 3rem 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.timeline {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background: var(--panel);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.item h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.school {
+    display: block;
+    margin-bottom: 0.25rem;
+    opacity: 0.9;
+}
+
+.period {
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+/* ======= Responsive ======= */
+@media (max-width: 768px) {
+    .section {
+        width: 90%;
+        padding: 2rem 0rem;
+    }
+
+    .item {
+        padding: 1rem;
+    }
+
+    .item h3 {
+        font-size: 1rem;
+    }
+}

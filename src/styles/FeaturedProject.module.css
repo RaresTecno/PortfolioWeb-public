@@ -1,0 +1,60 @@
+.section {
+  padding: 3rem 0rem;
+  width: 80%;
+  margin: auto;
+  white-space: pre-line;
+}
+
+.card {
+  display: flex;
+  gap: 1.5rem;
+  text-decoration: none;
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  color: inherit;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.thumb {
+  width: 240px;
+  height: 140px;
+  border-radius: var(--radius);
+  background: #333;
+  flex-shrink: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.link {
+  color: var(--accent);
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+/* ======= Responsive ======= */
+@media (max-width: 768px) {
+  .section {
+    width: 90%;
+    padding: 2rem 0rem;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .thumb {
+    width: 100%;
+    height: 180px;
+  }
+}

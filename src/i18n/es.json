@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "technologies": "Tecnologías",
+    "languages": "Idiomas",
+    "education": "Formación",
+    "skills": "Competencias",
+    "contact": "Contacto"
+  },
+
+  "hero": {
+    "title": "Hola, soy Rares",
+    "subtitle": "Desarrollador Full-Stack (React & Node)",
+    "about": "Desarrollador full-stack JavaScript/TypeScript especializado en Next.js, React Native y Express.\nMe apasionan los retos, escribir código limpio y colaborar en entornos ágiles con CI/CD y buenas prácticas de testing.",
+    "downloadCv": "Descargar CV",
+    "linkedin": "LinkedIn"
+  },
+
+  "section": {
+    "featured": "Proyecto Destacado",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "technologies": "Tecnologías",
+    "languages": "Idiomas",
+    "education": "Formación",
+    "skills": "Competencias"
+  },
+
+  "featuredProject": {
+    "name": "GymBros Zone",
+    "description": "Red social donde atletas publican logros, rutinas y dietas, con consulta de datos nutricionales mediante una API externa. \n Tech: JavaScript (ES6) · Vue.js · Supabase e Ionic.",
+    "link": "https://gymbroszone.es",
+    "img": "gym.png"
+  },
+
+  "projects": {
+        "portfolio": {
+      "name": "Rubik Solver",
+      "description": "Sitio para resolver cubos de rubik 3x3x3. \nTech: React + JavaScript · Three.js (render 3D) · Vite · Zustand · Tailwind · APIs",
+      "link": "https://rubik-solver.pages.dev/",
+      "img": "cubo.png"
+    },
+    "petpalace": {
+      "name": "PetPalace",
+      "description": "Plataforma de adopción de animales con sistema de login. \nTech: JavaScript (ES6) · Firebase · HTML5 · CSS3 · Cloudflare y JSON.",
+      "link": "https://petpalace.pages.dev/",
+      "img": "https://petpalace.pages.dev/img/logo_sin_fondo.png"
+    }
+  },
+
+  "experience": {
+    "fontventa-2024": {
+      "title": "Full-Stack Developer",
+      "company": "FontVenta",
+      "period": "Mar 2024 – Abr 2025",
+      "description": "Diseñé e implementé una API RESTful en Node.js/Express para gestionar reservas de +5 agencias externas y colaboré en el frontend Next.js de calendarios, aumentando la tasa de conversión un 40 %.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuALM8a-F7mWV7fHrzQOgWcLXhyW4NHGDhi0I3xDgyt3NCzeiX33gd5aHChzVM-H4tGVs&usqp=CAU"
+    }
+  },
+
+  "technologies": [
+    "JavaScript",
+    "TypeScript",
+    "React / Next.js",
+    "React Native",
+    "Node.js / Express",
+    "Vue / Ionic",
+    "Python",
+    "HTML5 & CSS3",
+    "Tailwind CSS",
+    "Bootstrap",
+    "PostgreSQL",
+    "MongoDB",
+    "Supabase",
+    "Firebase",
+    "Docker",
+    "Git / GitHub Actions"
+  ],
+
+  "languages": {
+    "es": { "name": "Español", "level": "Nativo" },
+    "ro": { "name": "Rumano",  "level": "Nativo" },
+    "en": { "name": "Inglés",  "level": "B2"    }
+  },
+
+  "education": {
+    "dw-2021": {
+      "degree": "Técnico Superior en Desarrollo de Aplicaciones Web",
+      "school": "IES Gaspar Melchor de Jovellanos",
+      "period": "2022 – 2024"
+    },
+    "bootcamp-2023": {
+      "degree": "Certificación Full-Stack JavaScript",
+      "school": "OpenBootcamp",
+      "period": "2023"
+    }
+  },
+
+  "skills": [
+    "Clean Code",
+    "Testing (Jest / RTL)",
+    "CI / CD",
+    "Scrum & Kanban",
+    "Trabajo en equipo",
+    "Escucha activa",
+    "Gestión del tiempo",
+    "Aprendizaje rápido",
+    "Comunicación"
+  ],
+
+  "footer": {
+    "rights": "© 2025 Rares. Todos los derechos reservados."
+  }
+}

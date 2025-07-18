@@ -1,0 +1,146 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem 1.5rem;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.hidden {
+  transform: translateY(-110%);
+}
+
+.inside {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--fg);
+  font-size: 1.2rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--fg);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.flags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.toggle span {
+  width: 24px;
+  height: 2px;
+  background: var(--fg);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+  position: relative;
+  z-index: 1200;
+}
+
+.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+  z-index: 1200;
+}
+
+.mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transform: translateX(-100%);
+  transition: transform 0.35s ease-in-out;
+  z-index: 900;
+}
+
+.mobileOpen {
+  transform: translateX(0);
+}
+.mobileList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mobileList a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.mobileFlags {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* ======= Responsive ======= */
+@media (max-width: 768px) {
+  .inside {
+    width: 100%;
+  }
+
+  .menu,
+  .flags {
+    display: none;
+  }
+
+  .toggle {
+    display: flex;
+  }
+}
